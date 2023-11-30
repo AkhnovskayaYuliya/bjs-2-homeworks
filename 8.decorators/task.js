@@ -31,7 +31,7 @@
 function debounceDecoratorNew(func, delay) {
 	let timeout = null;
 	wrapper.count = 0;
-    wrapper.allCount = 0;
+        wrapper.allCount = 0;
 
 	function wrapper(...args) {
 		wrapper.allCount++;
